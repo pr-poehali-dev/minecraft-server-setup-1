@@ -13,7 +13,7 @@ const Index = () => {
     address: "26.28.92.119:25565",
     name: "Awesome Minecraft Server",
     motd: "Добро пожаловать на лучший сервер! Выживание, креатив, мини-игры",
-    version: "1.20.4",
+    version: "16ю5",
     gameMode: "Survival",
     difficulty: "Hard",
     worldSize: "15.2 GB",
