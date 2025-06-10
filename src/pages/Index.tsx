@@ -13,7 +13,7 @@ const Index = () => {
   ]);
 
   const serverData = {
-    address: "mc.example.com:25565",
+    address: "26.28.92.119:25565",
     name: "Awesome Minecraft Server",
     motd: "Добро пожаловать на лучший сервер! Выживание, креатив, мини-игры",
     version: "1.20.4",
