@@ -6,9 +6,6 @@ import ServerInfo from "@/components/ServerInfo";
 
 const Index = () => {
   const [players, setPlayers] = useState([
-    { name: "Steve", playTime: "2ч 15мин" },
-    { name: "Alex", playTime: "45мин" },
-    { name: "Notch", playTime: "1ч 30мин" },
     { name: "Herobrine", playTime: "3ч 22мин" },
   ]);
 

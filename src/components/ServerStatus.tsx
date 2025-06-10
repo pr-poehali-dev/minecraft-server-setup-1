@@ -10,13 +10,10 @@ const ServerStatus = ({ serverAddress }: ServerStatusProps) => {
   const [ping, setPing] = useState<number | null>(null);
 
   useEffect(() => {
-    // Симуляция проверки статуса сервера
+    // Симуляция проверки статуса сервера - сервер оффлайн
     const checkStatus = () => {
-      const randomOnline = Math.random() > 0.3;
-      const randomPing = Math.floor(Math.random() * 200) + 20;
-
-      setIsOnline(randomOnline);
-      setPing(randomOnline ? randomPing : null);
+      setIsOnline(false);
+      setPing(null);
     };
 
     checkStatus();
